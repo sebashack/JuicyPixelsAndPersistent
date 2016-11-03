@@ -1,0 +1,8 @@
+curl -iXPOST localhost:8081/user -H "Content-Type: application/json" -d '{
+     "profName": "sebashack",
+     "name": "sebastian",
+     "lastName": "Pulido",
+     "email": "sebastian0092@gmail.com",
+     "birthDate": "1992-01-03T00:00:00Z"
+}'
+

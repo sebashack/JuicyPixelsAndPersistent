@@ -13,3 +13,4 @@ type UserAPI =
               :> Get '[JSON] User
   :<|> "user" :> ReqBody '[JSON] User
               :> PostCreated '[JSON] UserId
+
