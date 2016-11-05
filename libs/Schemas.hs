@@ -27,7 +27,7 @@ User
   name             T.Text
   lastName         T.Text
   birthDate        UTCTime
-  UniqueEmail        email
+  UniqueEmail      email
   ProfileName      profileName
   deriving Show
 Image
