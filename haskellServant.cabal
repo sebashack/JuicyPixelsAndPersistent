@@ -45,7 +45,8 @@ library
                    Schemas,
                    ActionRunner,
                    Configs,
-                   UserInterpreter
+                   UserInterpreter,
+                   ImageInterpreter
   hs-source-dirs:      libs
   default-language: Haskell2010
 

@@ -1,8 +1,11 @@
 curl -iXPOST localhost:8081/user -H "Content-Type: application/json" -d '{
-     "profName": "sebashack",
-     "name": "sebastian",
-     "lastName": "Pulido",
-     "email": "sebastian0092@gmail.com",
-     "birthDate": "1992-01-03T00:00:00Z"
+     "profName": "juanmas",
+     "name": "Juan Manuel",
+     "lastName": "Santos",
+     "email": "juanmas@gmail.com",
+     "birthDate": "1950-01-03T00:00:00Z"
 }'
+
+
+curl -iXPOST localhost:8081/user/postImg/1 -H "Content-Type: image/jpeg" --data-binary "@afro.jpg"
 
